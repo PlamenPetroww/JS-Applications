@@ -21,9 +21,6 @@ The Login page contains a form for existing user authentication. By providing an
 ![Screenshot (45)](https://user-images.githubusercontent.com/108054083/230744230-04b789fc-2e54-42ae-be73-d13ed899db3d.png)
 
 
-The logout action is available to logged-in users. Send the following request to perform logout:
-
-
 The Create page is available to logged-in users. It contains a form for creating new games. Check if all the fields are filled before you send the request.
 
 ![Screenshot (51)](https://user-images.githubusercontent.com/108054083/230744228-666c777d-bfca-4a6c-8aeb-9a979d7419c9.png)
