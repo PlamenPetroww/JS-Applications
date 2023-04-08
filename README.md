@@ -4,15 +4,11 @@
 
 Exercices and Exams - SoftUni University
 
-![Screenshot (47)](https://user-images.githubusercontent.com/108054083/230744232-208308ed-7a6e-458d-bc95-2b9c7f527cc3.png)
-![Screenshot (50)](https://user-images.githubusercontent.com/108054083/230744235-2668d7e4-ec4f-4468-a4c9-a6fef0a6c1f5.png)
-
-
 Im JS-Anwendungskurs lernen die Teilnehmer, was HTTP-Anforderungen sind und wie sie verwendet werden. Sie erfahren etwas über REST Services, was ein Baas (Backend as a Service) ist und wie man damit arbeitet, was asynchroner Code bedeutet (Promises, Verwendung von async/await), was Templating und Routing sind. Während des Kurses werden sie eine Single Page Application erstellen, indem sie die in früheren Vorlesungen erlernten Techniken anwenden, anhand derer sie bewertet werden. Sie verstehen, was die Architektur einer Anwendung ist und wie sie ihre Anwendungen richtig strukturieren. Am Ende des Kurses werden sie sich mit verschiedenen Entwurfsmustern und ihren praktischen Richtlinien befassen, ihre eigenen Webkomponenten mithilfe des Webkomponentenstandards erstellen und eine Webback-Umgebung von Grund auf neu erstellen.
 
 Beispiel Prüfungsaufgabe:
 
-Navigation links should correctly change the current page (view). GamesPlay link should redirect to the Home page. Guests (un-authenticated visitors) can see the links to the All Games (Catalogue) page, as well as the links to the Login and Register pages. The logged-in user navbar should contain the links to All Games (Catalogue) page, the Create page and a link for e Logout action.
+Navigation links should correctly change the current page (view). GamesPlay link should redirect to the Home page. Guests (un-authenticated visitors) can see the links to the All Games (Catalogue) page, as well as the links to the Login and Register pages. The logged-in user navbar should contain the links to All Games (Catalogue) page, the Create page and a link for e Logout action.All users should be greeted from the homepage, where they should be able to see the three most recently added games. Clicking on the details links leads to the details page for the selected game. 
 
 ![Screenshot (44)](https://user-images.githubusercontent.com/108054083/230744229-9971740c-1235-4ff3-bd8c-147d379afb0b.png)
 
@@ -26,9 +22,6 @@ The Login page contains a form for existing user authentication. By providing an
 
 
 The logout action is available to logged-in users. Send the following request to perform logout:
-
-All users should be greeted from the homepage, where they should be able to see the three most recently added games. Clicking on the details links leads to the details page for the selected game. 
-
 
 
 The Create page is available to logged-in users. It contains a form for creating new games. Check if all the fields are filled before you send the request.
@@ -48,6 +41,7 @@ The Edit page is accessible to logged-in users and allows the author to edit the
 
 The delete action is available to logged-in users, for game they have created. When the author clicks on the Delete action on any of their games, a confirmation dialog should be displayed, and upon confirming this dialog, the game should be deleted from the system.
 
+![Screenshot (50)](https://user-images.githubusercontent.com/108054083/230744235-2668d7e4-ec4f-4468-a4c9-a6fef0a6c1f5.png)
 
 
 
