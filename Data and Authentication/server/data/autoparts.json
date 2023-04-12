@@ -1,0 +1,20 @@
+{
+    "36eee746-2e47-4213-a2e5-1be74e6630b7": {
+        "label": "Mirror Left",
+        "price": 49,
+        "qty": 5,
+        "_id": "36eee746-2e47-4213-a2e5-1be74e6630b7"
+    },
+    "ac3a9b13-74f1-46ea-bdd6-858ff0c64356": {
+        "label": "Wiper Fluid",
+        "price": 15,
+        "qty": 56,
+        "_id": "ac3a9b13-74f1-46ea-bdd6-858ff0c64356"
+    },
+    "c8881cf9-33d0-4e52-a867-32cfc6493799": {
+        "label": "Brake Disk",
+        "price": 1580,
+        "qty": 22,
+        "_id": "c8881cf9-33d0-4e52-a867-32cfc6493799"
+    }
+}
