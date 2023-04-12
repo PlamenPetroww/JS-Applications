@@ -14,7 +14,21 @@ const detailsTemplate = (card, isOwner, onDelete) => html`
         </div>
         <p class="text">${card.summary}</p>
         ${cardControlTemplate(card, isOwner, onDelete)}
-        
+        <!-- Bonus ( for Guests and Users ) -->
+        <div class="details-comments">
+            <h2>Comments:</h2>
+            <ul>
+                <!-- list all comments for current game (If any) -->
+                <li class="comment">
+                    <p>Content: I rate this one quite highly.</p>
+                </li>
+                <li class="comment">
+                    <p>Content: The best game.</p>
+                </li>
+            </ul>
+            <!-- Display paragraph: If there are no games in the database -->
+            <p class="no-comment">No comments.</p>
+        </div>
     </div>
 
     <!-- Bonus -->
@@ -42,6 +56,7 @@ const cardControlTemplate = (card, isOwner, onDelete) => {
 };
 
 export async function detailsPage(ctx) {
+    console.log('catch')
     const cardId = ctx.params.id;
     const card = await getCardById(cardId);
     const userId = getUserData()?._id;

@@ -22,11 +22,3 @@ export async function deleteCard(id) {
 export async function editCard(id, card) {
     return put(`/data/games/${id}`, card)
 }
-
-export async function getByGameId(gameId) {
-    return get(`/data/comments?where=gameId%3D%22${gameId}%22`)
-}
-
-export async function postcomment(comment) {
-    return post('/data/comments', comment)
-}
