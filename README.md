@@ -2,6 +2,14 @@
 
 ![Applications](https://user-images.githubusercontent.com/108054083/230743007-c1f7469f-a13d-4b38-b994-7d7887a8c145.jpg)
 
+Im Projektverzeichnis können Sie Folgendes ausführen:
+
+npm start - Führt die App im Entwicklungsmodus aus.
+Öffnen Sie http://localhost:3000, um es im Browser anzuzeigen.
+Die Seite wird neu geladen, wenn Sie Änderungen vornehmen.
+
+npm test - Startet den Testläufer.
+
 Exercices and Exams - SoftUni University
 
 Im JS-Anwendungskurs lernen die Teilnehmer, was HTTP-Anforderungen sind und wie sie verwendet werden. Sie erfahren etwas über REST Services, was ein Baas (Backend as a Service) ist und wie man damit arbeitet, was asynchroner Code bedeutet (Promises, Verwendung von async/await), was Templating und Routing sind. Während des Kurses werden sie eine Single Page Application erstellen, indem sie die in früheren Vorlesungen erlernten Techniken anwenden, anhand derer sie bewertet werden. Sie verstehen, was die Architektur einer Anwendung ist und wie sie ihre Anwendungen richtig strukturieren. Am Ende des Kurses werden sie sich mit verschiedenen Entwurfsmustern und ihren praktischen Richtlinien befassen, ihre eigenen Webkomponenten mithilfe des Webkomponentenstandards erstellen und eine Webback-Umgebung von Grund auf neu erstellen.
@@ -39,6 +47,7 @@ The Edit page is accessible to logged-in users and allows the author to edit the
 The delete action is available to logged-in users, for game they have created. When the author clicks on the Delete action on any of their games, a confirmation dialog should be displayed, and upon confirming this dialog, the game should be deleted from the system.
 
 ![Screenshot (50)](https://user-images.githubusercontent.com/108054083/230744235-2668d7e4-ec4f-4468-a4c9-a6fef0a6c1f5.png)
+
 
 
 
