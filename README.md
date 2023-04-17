@@ -4,6 +4,8 @@
 
 Im Projektverzeichnis können Sie Folgendes ausführen:
 
+Der lokale Server sollte gestartet werden.
+
 npm start - Führt die App im Entwicklungsmodus aus.
 Öffnen Sie http://localhost:3000, um es im Browser anzuzeigen.
 Die Seite wird neu geladen, wenn Sie Änderungen vornehmen.
