@@ -10,6 +10,8 @@ npm start - Führt die App im Entwicklungsmodus aus.
 Öffnen Sie http://localhost:3000, um es im Browser anzuzeigen.
 Die Seite wird neu geladen, wenn Sie Änderungen vornehmen.
 
+Alle Tests werden mit der Playwright-Bibliothek geschrieben und die Aufgabenattribute müssen alle Tests wie CRUD-Operationen, Autorisierung und Error Handling erfüllen.
+
 npm test - Startet den Testläufer.
 
 Exercices and Exams - SoftUni University
