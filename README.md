@@ -2,7 +2,7 @@
 
 ![Applications](https://user-images.githubusercontent.com/108054083/230743007-c1f7469f-a13d-4b38-b994-7d7887a8c145.jpg)
 
-Im Projektverzeichnis können Sie Folgendes ausführen:
+So kann eine Spa-Anwendung gestartet werden.
 
 Geben Sie zunächst im Terminal den Befehl npm i ein, um die erforderlichen Bibliotheken aus der Datei package.json zu installieren.
 
