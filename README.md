@@ -4,15 +4,17 @@
 
 Im Projektverzeichnis können Sie Folgendes ausführen:
 
-Der lokale Server sollte gestartet werden.
+Geben Sie zunächst im Terminal den Befehl npm i ein, um die erforderlichen Bibliotheken aus der Datei package.json zu installieren.
 
-npm start - Führt die App im Entwicklungsmodus aus.
-Öffnen Sie http://localhost:3000, um es im Browser anzuzeigen.
-Die Seite wird neu geladen, wenn Sie Änderungen vornehmen.
+Nach dem Öffnen der Anwendung im Terminal geben Sie cd server ein und mit dem Befehl node server.js kann der Server gestartet werden.
+
+Geben Sie dann in einem neuen Terminal den Befehl npm run start ein.
+
+Der Server startet lokal auf Port 3000. Öffnen Sie http://localhost:3000, um es im Browser anzuzeigen.
+
+Wenn Sie möchten, dass auch die e2e-Tests ausgeführt werden, stoppen Sie den Server mit dem Befehl Strg+C und geben Sie dann in einem neuen Terminalfenster den Befehl npm test ein.
 
 Alle Tests werden mit der Playwright-Bibliothek geschrieben und die Aufgabenattribute müssen alle Tests wie CRUD-Operationen, Autorisierung und Error Handling erfüllen.
-
-npm test - Startet den Testläufer.
 
 Exercices and Exams - SoftUni University
 
