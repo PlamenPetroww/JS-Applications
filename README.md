@@ -2,22 +2,6 @@
 
 ![Applications](https://user-images.githubusercontent.com/108054083/230743007-c1f7469f-a13d-4b38-b994-7d7887a8c145.jpg)
 
-So kann eine Spa-Anwendung gestartet werden.
-
-Geben Sie zunächst im Terminal den Befehl npm i ein, um die erforderlichen Bibliotheken aus der Datei package.json zu installieren.
-
-Nach dem Öffnen der Anwendung im Terminal geben Sie cd server ein und mit dem Befehl node server.js kann der Server gestartet werden.
-
-Geben Sie dann in einem neuen Terminal den Befehl npm run start ein.
-
-Der Server startet lokal auf Port 3000. Öffnen Sie http://localhost:3000, um es im Browser anzuzeigen.
-
-Wenn Sie möchten, dass auch die e2e-Tests ausgeführt werden, stoppen Sie den Server mit dem Befehl Strg+C und geben Sie dann in einem neuen Terminalfenster den Befehl npm test ein.
-
-Alle Tests werden mit der Playwright-Bibliothek geschrieben und die Aufgabenattribute müssen alle Tests wie CRUD-Operationen, Autorisierung und Error Handling erfüllen.
-
-Exercices and Exams - SoftUni University
-
 Im JS-Anwendungskurs lernen die Teilnehmer, was HTTP-Anforderungen sind und wie sie verwendet werden. Sie erfahren etwas über REST Services, was ein Baas (Backend as a Service) ist und wie man damit arbeitet, was asynchroner Code bedeutet (Promises, Verwendung von async/await), was Templating und Routing sind. Während des Kurses werden sie eine Single Page Application erstellen, indem sie die in früheren Vorlesungen erlernten Techniken anwenden, anhand derer sie bewertet werden. Sie verstehen, was die Architektur einer Anwendung ist und wie sie ihre Anwendungen richtig strukturieren. Am Ende des Kurses werden sie sich mit verschiedenen Entwurfsmustern und ihren praktischen Richtlinien befassen, ihre eigenen Webkomponenten mithilfe des Webkomponentenstandards erstellen und eine Webback-Umgebung von Grund auf neu erstellen.
 
 Beispiel Prüfungsaufgabe:
